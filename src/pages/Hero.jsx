@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='w-[100%] h-[100vh] mt-0 md:mt-[85px]'>Hero</div>
+    <div className='mt-0 md:mt-[85px] w-[100%] h-[500px] md:h-[800px] lg:[900px] bg-black'>Hero</div>
   );
 }
 
