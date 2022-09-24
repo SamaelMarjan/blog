@@ -8,12 +8,12 @@ const Navbar = () => {
         <div className='w-[100%] md:w-[50%] h-[50px] m-auto md:m-0 flex items-center justify-center md:justify-start'>
           <p className='w-[145px] h-[45px] text-4xl text-[#001858] font-semibold'>Dasteen<span className='w-[48px] h-[27px] text-lg text-[#6246EA] font-bold'>.Blog</span></p>
         </div>
-        <div className='w-[100%] md:w-[50%] flex gap-3 md:gap-10 text-[#2B2C34] font-bold text-xs md:text-xl items-center justify-center md:justify-end'>
+        <div className='w-[100%] md:w-[50%] h-[100px] flex gap-3 md:gap-10 text-[#2B2C34] font-bold text-xs md:text-xl items-center justify-center md:justify-end'>
           <Link to='/' >Home</Link>
           <a href='#cat' >Category</a>
           <Link to='/about' >About</Link>
           <Link to='/contact' >Contact</Link>
-          <p className='w-[100px] md:w-[100%] h-[100%] bg-[#6246EA] p-2 md:p-3 rounded-lg text-[#FFFFFE] text-xs md:text-lg cursor-pointer flex items-center justify-center'>cofee?</p>
+          <button className='w-[100px] md:w-[150px] h-[40px] md:h-[60px] bg-[#6246EA] rounded-lg text-[#FFFFFE] text-xs md:text-lg cursor-pointer flex items-center justify-center'>cofee?</button>
         </div>
       </div>
     </div>
