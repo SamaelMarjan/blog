@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import {  Route, Routes } from 'react-router-dom';
 
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -13,7 +13,6 @@ import Contact from '../pages/Contact';
 const Main = () => {
   return (
     <>
-    <BrowserRouter>
       <Navbar />
         <Routes>
           <Route exact path='/' element={<Hero />} />
@@ -23,7 +22,6 @@ const Main = () => {
       <Category />
       <Articles />
       <Footer />
-    </BrowserRouter>
     </>
   );
 }

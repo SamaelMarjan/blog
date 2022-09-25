@@ -8,7 +8,7 @@ const Hero = () => {
       <div className='w-[90%] h-[100%] m-auto flex flex-col md:flex-row items-center justify-center gap-4 md:gap-0'>
         <div className='md:w-[50%] h-[100%] flex flex-col justify-center gap-4'>
           <div className='flex flex-col gap-4'>
-            <p className='w-[100%] h-[100%] text-[#2B2C34] text-6xl font-bold'>Hi, i’m Dasteen <span className='block'>Front end dev</span></p>
+            <p className='w-[100%] h-[100%] text-[#2B2C34] text-6xl font-bold'>Hi, i’m samael <span className='block'>Front end dev</span></p>
             <p className='w-[100%] h-[100%] text-[#9A9494] text-xl font-normal border-l-4 border-[#2B2C34] px-2'>
               On this blog I share tips and tricks, frameworks, projects, tutorials, etc
               Make sure you subscribe to get the latest updates

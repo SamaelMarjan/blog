@@ -7,7 +7,7 @@ import Img3 from '../assets/Article_Image3.png';
 
 const Articles = () => {
   return (
-    <div className='w-[100%] h-[100%]'>
+    <div className='w-[100%] h-[100%] bg-white'>
       <div className='w-[90%] h-[100%] m-auto'>
         <div className='w-[100%] h-[100%] flex flex-col gap-4'>
           <div className='w-[100%] h-[50px] flex items-center justify-between'>
